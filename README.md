@@ -17,7 +17,7 @@ source .venv/bin/activate
 
 python3 -m pip install matplotlib
 
-python3 tpuv4_simulator.py --outdir results
+python3 tpu.py --outdir results
 
 The command writes three CSV files and three PNG graphs to results/.
 Experiments
